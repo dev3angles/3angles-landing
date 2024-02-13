@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-select::selection {
+  user-select: none;
+}
+* {
+  margin: 0;
+}
+body {
+  background: #1a1a1a;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Moul";
+  src: url("./fonts/Moul.ttf") format("truetype");
+}
+:root {
+  font-family: "Montserrat", sans-serif;
+}
