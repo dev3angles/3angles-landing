@@ -6,7 +6,7 @@ function App() {
     <div>
       <Header />
       <img
-        src="./src/assets/triangle.svg"
+        src="./public/triangle.svg"
         alt="triangle"
         className="absolute right-0 top-0 no-select"
         style={{ userSelect: "none", zIndex: "-1" }}
@@ -22,21 +22,21 @@ function App() {
         </p>
         <div className="flex flex-row gap-4 content-center mt-8">
           <a href="https://github.com">
-            <img src="./src/assets/github.svg" alt="github" />
+            <img src="./public/github.svg" alt="github" />
           </a>
           <a href="#">
             <img
-              src="./src/assets/phone.svg"
+              src="./public/phone.svg"
               alt="phone"
               style={{ paddingTop: "4px" }}
             />
           </a>
           <a href="#">
-            <img src="./src/assets/mail.svg" alt="mail" />
+            <img src="./public/mail.svg" alt="mail" />
           </a>
           <a href="#">
             <img
-              src="./src/assets/linkedin.svg"
+              src="./public/linkedin.svg"
               alt="linkedin"
               style={{ paddingBottom: "5px", paddingLeft: "7px" }}
             />

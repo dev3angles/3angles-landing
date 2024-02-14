@@ -5,7 +5,7 @@ export default function Header() {
       className="w-full flex justify-between items-center flex-row box-border px-10 text-white backdrop-blur-sm fixed z-50"
     >
       <img
-        srcSet="./src/assets/LOGO_BLACK.svg"
+        srcSet="./public/LOGO_BLACK.svg"
         alt="LOGO"
         className="select-none"
       />
