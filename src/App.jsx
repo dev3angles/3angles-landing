@@ -1,4 +1,9 @@
 import "./App.css";
+import triangle from "../public/triangle.svg";
+import github from "../public/github.svg";
+import phone from "../public/phone.svg";
+import mail from "../public/mail.svg";
+import linkedin from "../public/linkedin.svg";
 import Header from "./components/header/header";
 
 function App() {
@@ -6,7 +11,7 @@ function App() {
     <div>
       <Header />
       <img
-        src="./public/triangle.svg"
+        src={triangle}
         alt="triangle"
         className="absolute right-0 top-0 no-select"
         style={{ userSelect: "none", zIndex: "-1" }}
@@ -22,21 +27,17 @@ function App() {
         </p>
         <div className="flex flex-row gap-4 content-center mt-8">
           <a href="https://github.com">
-            <img src="./public/github.svg" alt="github" />
+            <img src={github} alt="github" />
+          </a>
+          <a href="#">
+            <img src={phone} alt="phone" style={{ paddingTop: "4px" }} />
+          </a>
+          <a href="#">
+            <img src={mail} alt="mail" />
           </a>
           <a href="#">
             <img
-              src="./public/phone.svg"
-              alt="phone"
-              style={{ paddingTop: "4px" }}
-            />
-          </a>
-          <a href="#">
-            <img src="./public/mail.svg" alt="mail" />
-          </a>
-          <a href="#">
-            <img
-              src="./public/linkedin.svg"
+              src={linkedin}
               alt="linkedin"
               style={{ paddingBottom: "5px", paddingLeft: "7px" }}
             />
