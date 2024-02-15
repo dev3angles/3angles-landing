@@ -109,6 +109,7 @@
 .spawn-menu-phone-closed {
   opacity: 0;
   animation: spawn-menu-phone-closed 0.5s ease forwards;
+  z-index: -3000;
 }
 @keyframes spawn-menu-phone-open {
   0% {
@@ -148,15 +149,15 @@
   animation-fill-mode: forwards;
 }
 .spawn-text-menu li:nth-child(1) {
-  animation-delay: 0s;
+  animation-delay: 0.4s;
 }
 
 .spawn-text-menu li:nth-child(2) {
-  animation-delay: 0.2s; /* Ajusta el retraso según tus necesidades */
+  animation-delay: 0.5s; /* Ajusta el retraso según tus necesidades */
 }
 
 .spawn-text-menu li:nth-child(3) {
-  animation-delay: 0.4s; /* Ajusta el retraso según tus necesidades */
+  animation-delay: 0.7s; /* Ajusta el retraso según tus necesidades */
 }
 
 @keyframes spawn-text-menu {
@@ -168,4 +169,22 @@
     bottom: 0;
     opacity: 1;
   }
+}
+.design-article {
+  color: #0074cc;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5rem;
+  background: rgba(255, 255, 255, 0.1);
+  width: 90%;
+  margin: auto;
+  max-width: 500px;
+  height: 20rem;
+  justify-content: start !important;
+  padding-top: 2rem;
+  box-sizing: border-box;
+}
+.design-article p {
+  text-align: center;
+  color: white;
 }
