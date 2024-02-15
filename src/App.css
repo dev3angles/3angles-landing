@@ -179,10 +179,11 @@
   width: 90%;
   margin: auto;
   max-width: 500px;
-  height: 20rem;
   justify-content: start !important;
   padding-top: 2rem;
   box-sizing: border-box;
+  height: max-content !important;
+  padding-bottom: 4rem;
 }
 .design-article p {
   text-align: center;
