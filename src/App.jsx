@@ -117,7 +117,7 @@ function App() {
             <form
               action=""
               onSubmit={(e) => e.preventDefault()}
-              className="flex flex-col w-full sm:w-1/2"
+              className="flex flex-col w-full items-center justify-center"
             >
               <input
                 className="mb-2 input-contact"

@@ -241,6 +241,7 @@
   border-radius: 12px;
   margin-top: 1.5rem;
   transition: all 0.3s ease;
+  width: 100%;
 }
 .input-submit-btn:hover {
   background: rgba(0, 0, 0, 0.5) !important;
