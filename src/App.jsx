@@ -115,6 +115,7 @@ function App() {
           >
             <h1 className="text-3xl font-bold mb-5">Contactanos:</h1>
             <form
+              id="contactano"
               action=""
               onSubmit={(e) => e.preventDefault()}
               className="flex flex-col w-full items-center justify-center"

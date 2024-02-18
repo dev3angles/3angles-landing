@@ -29,7 +29,7 @@ export default function Header() {
           <a href="#">ACERCA DE 3ANGLES</a>
         </li>
         <li className="hover:text-teal-400 transition-all duration-200 cursor-pointer">
-          <a href="#">CONTACTANOS</a>
+          <a href="#contactanos">CONTACTANOS</a>
         </li>
       </ul>
       <div
@@ -62,7 +62,7 @@ export default function Header() {
             <a href="#">ACERCA DE 3ANGLES</a>
           </li>
           <li className="hover:text-teal-400 transition-all duration-200 cursor-pointer">
-            <a href="#">CONTACTANOS</a>
+            <a href="#contactano">CONTACTANOS</a>
           </li>
         </ul>
       </div>
