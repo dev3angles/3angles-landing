@@ -70,9 +70,7 @@ function App() {
         <Card
           title="Desarrollo:"
           text="Descubre el enfoque distintivo de desarrollo de 3angles. Desde la
-          planificación hasta la implementación, nuestro equipo crea
-          soluciones tecnológicas robustas y atractivas. Impulsamos tu visión
-          con un desarrollo que va más allá de las expectativas."
+          planificación hasta la implementación"
           img="https://static.wixstatic.com/media/11062b_606c7b98d47748fe9d0c738c8739edb5~mv2.jpg/v1/fill/w_799,h_480,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_606c7b98d47748fe9d0c738c8739edb5~mv2.jpg"
         />
       </section>
@@ -85,7 +83,7 @@ function App() {
           eaque facere, beatae voluptatem, cumque saepe expedita et officia
           tempora
         </p>
-        <div className="flex flex-row w-full justify-center pt-20 gap-5 pb-20">
+        <div className="flex flex-row w-full justify-center pt-20 gap-5 pb-20 flex-wrap">
           <Service
             title="Servicio 1"
             text="Describe your service here. What makes it great? Use short catchy text to tell people what you offer, and the benefits they will receive. A great description gets readers in the mood, and makes them more likely to go ahead and book."
@@ -108,7 +106,7 @@ function App() {
           className="cardContainer flex content-center justify-center flex-wrap rounded-xl overflow-hidden mx-auto"
           style={{
             background: "rgba(255,255,255,0.1)",
-            width: "80%",
+            width: "90%",
           }}
         >
           <div
@@ -116,7 +114,11 @@ function App() {
             style={{ width: "50%" }}
           >
             <h1 className="text-3xl font-bold mb-5">Contactanos:</h1>
-            <form action="" className="flex flex-col">
+            <form
+              action=""
+              onSubmit={(e) => e.preventDefault()}
+              className="flex flex-col w-full sm:w-1/2"
+            >
               <input
                 className="mb-2 input-contact"
                 type="text"

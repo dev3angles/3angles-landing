@@ -4,7 +4,7 @@ export default function Card(props) {
       className="cardContainer flex content-center justify-center flex-wrap rounded-xl overflow-hidden"
       style={{
         background: "rgba(255,255,255,0.1)",
-        width: "70%",
+        width: "90%",
       }}
     >
       <div

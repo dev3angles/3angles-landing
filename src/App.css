@@ -192,11 +192,12 @@
 @media screen and (max-width: 800px) {
   .cardContainer {
     width: 85%;
-    height: 600;
+    height: 100%;
     flex-direction: column;
   }
   .cardContainer > div {
-    height: 300px !important;
+    height: 50% !important;
+    min-height: 250px;
     width: 100% !important;
     align-items: center;
     justify-content: center;
@@ -213,17 +214,19 @@
   background: rgba(0, 0, 0, 0.3);
   color: white;
   border-radius: 12px;
+  width: 100%;
   margin-top: 1rem;
 }
 .input-contact::placeholder,
 .input-contact-textarea::placeholder {
   color: white;
+  font-size: 0.8rem;
 }
 .input-contact {
   color: white;
   height: 3rem;
   box-sizing: border-box;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 .input-contact-textarea {
   padding-left: 1rem;
